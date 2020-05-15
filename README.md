@@ -7,7 +7,7 @@
 # Using Config File
 본 플러그인은 Config파일을 지원하고 있습니다.
 
-AWS_StartTime: 1 
+AWS_StartTime: 1
 AWS_BroadcastTime: 10
 AWS_WarheadStart: 긴급 핵시스템 절차가 시작되었습니다
 AWS_AutoWarheadStart: 자동핵시스템 절차가 시작되었습니다\n취소가 불가능합니다
