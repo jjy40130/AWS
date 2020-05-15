@@ -1,10 +1,8 @@
 # AutoWarhead System (AWS)
 본 플러그인은 존버 및 오랜 라운드진행으로 지루해지는 SL을 방지하고자 제작된 SCP_SL 전용 플러그인입니다.
 
-
  - 라운드 마다 지정된 시간에 자동핵 시스템이 활성화됩니다.
  - 활성화된 자동핵은 어떠한 경우에도 취소가 불가능합니다
-
 
 # Using Config File
 본 플러그인은 Config파일을 지원하고 있습니다 ( 적용필수 )
@@ -18,8 +16,7 @@ AWS_BroadcastTime : 안내메시지을 표시할 시간입니다. ( 단위 : 초
 AWS_WarheadStart : 일반적인 핵작동시 안내될 메시지입니다.\
 AWS_AutoWarheadStart : 자동핵 작동시 안내될 메시지입니다.\
 AWS_WarheadCancel : 일반적인 핵작동 취소시 안내될 메시지입니다.\
-AWS_RoundStart : 라운드 시작 직후 안내될 메시지입니다. ( [START_TIME] : 자동핵이 작동될 시간이 반환됩니다. ( 단위 : 분 ))\
-
+AWS_RoundStart : 라운드 시작 직후 안내될 메시지입니다. ( [START_TIME] : 자동핵이 작동될 시간이 반환됩니다. ( 단위 : 분 ))
 
 # Precautions
 
