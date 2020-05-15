@@ -13,6 +13,7 @@ https://github.com/jjy40130/AWS/blob/master/Config.txt
 Config 파일 사용방법 : .config/EXILED/포트-config.yml에 위 config를 추가 또는 덮어쓰기하면 됩니다.
 
 
+
 < Config 설명 >
 
 AWS_StartTime : 라운드 시작 이후 자동핵이 동작될때 까지의 시간입니다. ( 단위 : 분 )
