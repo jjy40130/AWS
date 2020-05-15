@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\EXILED\Plugins\dependencies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\EXILED\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\EXILED\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="EXILED">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\EXILED\EXILED\EXILED.dll</HintPath>
+    </Reference>
+    <Reference Include="EXILED_Events">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\EXILED\Plugins\EXILED_Events.dll</HintPath>
+    </Reference>
+    <Reference Include="EXILED_Idler">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\EXILED\Plugins\EXILED_Idler.dll</HintPath>
+    </Reference>
+    <Reference Include="EXILED_Permissions">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\EXILED\Plugins\EXILED_Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\UnityEngine.CoreModule\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>..\..\..\..\..\..\Project\C#\API\EXILED\Plugins\dependencies\YamlDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
