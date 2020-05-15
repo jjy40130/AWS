@@ -12,10 +12,15 @@ Config 파일 사용방법 : .config/EXILED/포트-config.yml에 위 config를 �
 
 < Config 설명 >
 AWS_StartTime : 라운드 시작 이후 자동핵이 동작될때 까지의 시간입니다. ( 단위 : 분 )
+
 AWS_BroadcastTime : 안내메시지을 표시할 시간입니다. ( 단위 : 초 )
+
 AWS_WarheadStart : 일반적인 핵작동시 안내될 메시지입니다.
+
 AWS_AutoWarheadStart : 자동핵 작동시 안내될 메시지입니다.
+
 AWS_WarheadCancel : 일반적인 핵작동 취소시 안내될 메시지입니다.
+
 AWS_RoundStart : 라운드 시작 직후 안내될 메시지입니다. ( [START_TIME] : 자동핵이 작동될 시간이 반환됩니다. ( 단위 : 분 ))
 
 # Precautions
