@@ -7,12 +7,7 @@
 # Using Config File
 본 플러그인은 Config파일을 지원하고 있습니다.
 
-AWS_StartTime: 1
-AWS_BroadcastTime: 10
-AWS_WarheadStart: 긴급 핵시스템 절차가 시작되었습니다
-AWS_AutoWarheadStart: 자동핵시스템 절차가 시작되었습니다\n취소가 불가능합니다
-AWS_WarheadCancel: 핵시스템 절차가 취소되었습니다
-AWS_RoundStart: [START_TIME]분 후 자동핵시스템이 동작합니다
+https://github.com/jjy40130/AWS/blob/master/Config.txt
 
 
 Config 파일 사용방법 : .config/EXILED/포트-config.yml에 위 config를 추가 또는 덮어쓰기하면 됩니다.
