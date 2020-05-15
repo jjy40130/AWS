@@ -10,16 +10,16 @@ namespace AWS.InGameEvents {
         public void OnRoundStart () {
             IsAutoWarheadStart = false;
             Timing.RunCoroutine(AutoWarheadSystem());
-            Cassie.CassieMessage("WARNING THE AUTOMATIC WARHEAD SYSTEM START IN 30 SECOND", true, true);
-            Expansions.Broadcast(10, "경고! 30초뒤 자동핵 시스템이 동작합니다!");
+            Cassie.CassieMessage($"WARNING THE AUTOMATIC WARHEAD SYSTEM START IN {Configs.StartTime} MINUTES", true, true);
+            Expansions.Broadcast(Configs.BroadcastTime, Configs.getRoundStart());
         }
 
         public IEnumerator<float> AutoWarheadSystem() {
-            yield return Timing.WaitForSeconds(30f);
+            yield return Timing.WaitForSeconds(Configs.getStartTime());
             if(!Map.IsNukeDetonated) {
                 IsAutoWarheadStart = true;
                 Map.StartNuke();
-                Expansions.Broadcast(10, "자동핵이 활성화되었습니다\n비활성화가 불가능합니다");
+                Expansions.Broadcast(Configs.BroadcastTime, Configs.AutoWarheadStart);
             }
         }
     }

@@ -9,6 +9,9 @@ namespace AWS {
         OnEvents onEvents;
 
         public override void OnEnable() {
+            Log.Info("Config 파일을 불러오는중...");
+            Configs.LoadConfig();
+            Log.Info("Config 파일을 정상적으로 불러왔습니다.");
             onEvents = new OnEvents();
             Log.Info("이벤트 불러오는중...");
             Events.RoundStartEvent += onEvents.OnRoundStart;
@@ -29,6 +32,9 @@ namespace AWS {
 
         public override void OnReload() {
             Log.Info("AWS 플러그인이 재시작중입니다.");
+            Log.Info("Config 파일을 불러오는중...");
+            Configs.LoadConfig();
+            Log.Info("Config 파일을 정상적으로 불러왔습니다.");
         }
     }
 }

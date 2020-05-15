@@ -7,7 +7,7 @@ namespace AWS.InGameEvents {
             if(IsAutoWarheadStart) {
                 ev.Allow = false;
             } else {
-                Expansions.Broadcast(10, "핵작동이 취소되었습니다");
+                Expansions.Broadcast(Configs.BroadcastTime, Configs.WarheadCancel);
             }
         }
     }
